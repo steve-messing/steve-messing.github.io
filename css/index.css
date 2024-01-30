@@ -1,0 +1,113 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    margin-bottom: -200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 200px);
+    grid-template-rows: repeat(5, 200px);
+}
+
+footer {
+    background: black;
+    color: white;
+    height: 200px;
+    z-index: 10000000;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: helvetica;
+    text-align: center;
+    color: #FFF7E0;
+    margin-top: -50px;
+    margin-bottom: 0;
+}
+
+.container,
+.link {
+    margin-top: -200px;
+    margin-bottom: -200px;
+}
+
+.link {
+    margin-top: -200px;
+    margin-bottom: -200px;
+}
+
+.top-trapezoid {
+    position: relative;
+    top: 0;
+    left: 0;
+    border-top: 100px solid #FFF7E0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    width: 100px;
+}
+
+.bottom-trapezoid {
+    position: relative;
+    top: 0;
+    left: 0;
+    border-bottom: 100px solid #656874;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    width: 100px;
+}
+
+.left-triangle {
+    position: relative;
+    top: 200px;
+    left: 0;
+    border-left: 50px solid#B9F5FF;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+}
+
+.right-triangle {
+    position: relative;
+    top: -200px;
+    left: 0;
+    border-right: 50px solid #8C8F97;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+}
+
+.container:hover .left-triangle {
+    border-left: 50px solid #656874;
+}
+
+.container:hover .right-triangle {
+    border-right: 50px solid #9FD2FF;
+}
+
+.container:hover .top-trapezoid {
+    border-top: 100px solid #2e2a2e;
+}
+
+.container:hover .bottom-trapezoid {
+    border-bottom: 100px solid #e3d1e3;
+}
+
+.link:hover .left-triangle {
+    border-left: 50px solid #ff3512;
+}
+
+.link:hover .right-triangle {
+    border-right: 50px solid #ff3512;
+}
+
+.link:hover .top-trapezoid {
+    border-top: 100px solid #ff3512;
+}
+
+.link:hover .bottom-trapezoid {
+    border-bottom: 100px solid #ff3512;
+}
