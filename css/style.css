@@ -27,6 +27,14 @@ header img {
     grid-area: name;
 }
 
+.horizontalList {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between;
+    align-items: center; */
+    padding: 10px;
+}
+
 nav {
     grid-area: nav;
     display: flex;
