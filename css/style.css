@@ -87,11 +87,19 @@ nav li:hover {
     color: #2e2a2e;
 }
 
-.box {
+.red {
     background: #ff3512;
+}
+
+.blue {
+    background: dodgerblue;
+}
+
+.box {
     width: 260px;
-    padding: 8px 20px 20px 20px;
+    padding: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .box a {
