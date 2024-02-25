@@ -1,90 +1,70 @@
-# Personal Portfolio Site
+# Getting Started with Create React App
 
-## At a Glance
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- Individual, [stage 2](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/classroom/rule-of-three.md#stage-2) project
-- Due before class, Monday October 26th
+## Available Scripts
 
-## Introduction
+In the project directory, you can run:
 
-It's common for developers to create a website to show off their web-dev skills and document their work and interests. These sites often feature things like:
+### `npm start`
 
-- A professional introduction of themselves, careers, and interests
-- A portfolio of projects that they've created and/or collaborated on
-- A blog to share their experiences, thoughts, and/or subject matter expertise
-- Other materials to share any non-coding interests and hobbies
-- A site designed to express themselves
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Some Inspiration
-- [http://lizabinante.com/](http://lizabinante.com/)
-- [http://where.coraline.codes/](http://where.coraline.codes/)
-- [http://danisaurus.github.io/](http://danisaurus.github.io/)
-- [http://www.fenslattery.com/](http://www.fenslattery.com/)
-- [https://www.heyellieday.com/](https://www.heyellieday.com/)
-- [http://car.oline.codes/](http://car.oline.codes/)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Learning Goals:
-- Practice creating semantic HTML
-- Practice applying visual styles with CSS
-- Use both HTML & CSS together to create a comprehensive design
+### `npm test`
 
-## Objective
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Use HTML & CSS to create a static site whose content is your portfolio. Your personal portfolio site should contain information about you and the coding work you've done.
+### `npm run build`
 
-## Project Requirements
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Only Use Static HTML and CSS
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-You are only permitted to use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript of any kind are not allowed. All submitted HTML needs to pass as valid HTML through an HTML Validator.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Required Pages
+### `npm run eject`
 
-This portfolio site must have the minimum four HTML files:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. `index.html`
-2. `about.html`
-3. `portfolio.html`
-4. `code-journal.html` or `hobby-blog.html`
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-#### Details
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-`index.html` must include your name somewhere.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-`about.html` should include some information about you, your interests, background or similar. Only post what you're comfortable sharing.
+## Learn More
 
-`portfolio.html` must include information about the projects you've completed at Ada (or elsewhere) with links to GitHub repo if available, descriptions, images, etc.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-`code-journal.html` or `hobby-blog.html` should be a page with several articles or blog-style posts about either your journey/observations about programming or a hobby you enjoy.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Required Page Layout
+### Code Splitting
 
-Each page in this project must comply with the following layout requirements:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- Uses at least one CSS file (likely named `style.css`)
-- Has the following tags: `<header>`, `<footer>`, and `<nav>`
-- Inside of the `<nav>`, there are links to all of the other pages
+### Analyzing the Bundle Size
 
-### Non-Functional Requirements
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-The site should follow best practices including:
-  - All markup should be semantic, with consideration of hierarchy and accessibility
-  - CSS should be concise and well formatted
-  - Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively
-  - Run your site through an [HTML Validator](https://validator.w3.org/#validate_by_upload) and fix all errors before submitting
+### Making a Progressive Web App
 
-### Optional Enhancements
-- Create a `blog/` or `code-journal/` directory. Within this directory...
-  - create single `html` file for each entry in your blog/journal
-  - update the nav on the rest of your site to reference each entry as a sublist/subnav.
-  - update any tags with path references (`img`, `link`, `a` tags) to accommodate for the entries being in a different directory.
-- Create any number of additional pages or directories.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### A Word of Caution
-A lot of developers find their initial foray into CSS frustrating. Every browser implements the CSS standard a little (or a lot) differently. Learning to manipulate elements and understand the _box model_ takes time. Layout can be especially challenging to developers new to CSS. For this project, focus on understanding the mechanics and semantics of HTML and CSS, and how the two work together.
+### Advanced Configuration
 
-### Optional: Deploy with GitHub Pages
-Want more? Make your site live on the internet! There are a lot of ways to go about hosting a live website, but GitHub provides a way to host static sites for free using your GitHub account. [Follow the steps listed here](https://pages.github.com/).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## What Instructors Are Looking For
-Check out the [feedback template](feedback.md) which lists the items instructors will be looking for as they evaluate your project.
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
