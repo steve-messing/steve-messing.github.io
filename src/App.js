@@ -2,11 +2,11 @@ import React from "react";
 // import Hamburger from "./components/hamburger";
 // import Nav from "./components/nav";
 // import Logo from "./components/logo";
+// import Pdf from "./components/pdf";
+// import resume from "./assets/resume.pdf";
+// import cv from "./assets/cv.pdf";
 import Name from "./components/name";
 import Css from "../src/css/style.css";
-import Pdf from "./components/pdf";
-import resume from "./assets/resume.pdf";
-import cv from "./assets/cv.pdf";
 
 function App() {
   return (
@@ -19,11 +19,8 @@ function App() {
               <a href="https://github.com/steve-messing">
                 <li>GitHub</li>
               </a>
-              <a href="https://github.com/steve-messing">
+              <a href="https://www.linkedin.com/in/steve-messing-a3b40264/">
                 <li>LinkedIn</li>
-              </a>
-              <a href="https://github.com/steve-messing">
-                <li>Instagram</li>
               </a>
             </ul>
           </div>
@@ -43,6 +40,15 @@ function App() {
             </h3>
             <button href="https://www.youtube.com/watch?v=FzYQIi99va0">
                 AR Altar Building App (iOS)
+            </button>
+          </div>
+
+          <div class="green box">
+            <h3>
+                Contact
+            </h3>
+            <button href="/">
+                Coming Soon...
             </button>
           </div>
         </div>
