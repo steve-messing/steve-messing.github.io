@@ -16,7 +16,7 @@ function App() {
         <div className={Css.container}>
             <div class="blue box">
               <ul class="code-projects">
-                <a href="./assets/resume.pdf">
+                <a href="/">
                   <li >Coming Soon...</ li>
                 </a>
               </ul>
@@ -29,7 +29,7 @@ function App() {
               </h3>
               <ul class="code-projects">
                 <a href="https://www.youtube.com/watch?v=FzYQIi99va0">
-                  <li>AR Altar Building iOS App</li>
+                  <li>AR Altar Building App (iOS)</li>
                 </a>
               </ul>
             </div>
