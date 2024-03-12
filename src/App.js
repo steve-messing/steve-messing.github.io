@@ -14,38 +14,37 @@ function App() {
       <div className="container">
         <Name />
         <div className={Css.container}>
-            <div class="blue box">
-              <ul class="code-projects">
-                <a href="/">
-                  <li >Coming Soon...</ li>
-                </a>
-              </ul>
-            </div>
-            <div class="red box">
-              <h3>
-                <a href="https://github.com/steve-messing?tab=repositories">
-                  Altarfy
-                </a>
-              </h3>
-              <ul class="code-projects">
-                <a href="https://www.youtube.com/watch?v=FzYQIi99va0">
-                  <li>AR Altar Building App (iOS)</li>
-                </a>
-              </ul>
-            </div>
-            <div class="red box">
-              <h3>
-                <a href="https://github.com/steve-messing?tab=repositories">
-                  Trans Resources Page
-                </a>
-              </h3>
-              <ul class="code-projects">
-                <a href="https://realself.com/trans-resources">
-                  <li>RealSelf</li>
-                </a>
-              </ul>
-            </div>
-
+          <div class="blue box">
+            <ul>
+              <a href="https://github.com/steve-messing">
+                <li>GitHub</li>
+              </a>
+              <a href="https://github.com/steve-messing">
+                <li>LinkedIn</li>
+              </a>
+              <a href="https://github.com/steve-messing">
+                <li>Instagram</li>
+              </a>
+            </ul>
+          </div>
+          
+          <div class="red box">
+            <h3>
+                Trans Resources Page
+            </h3>
+            <button href="https://realself.com/trans-resources">
+                RealSelf
+            </button>
+          </div>
+          
+          <div class="red box">
+            <h3>
+                Altarfy
+            </h3>
+            <button href="https://www.youtube.com/watch?v=FzYQIi99va0">
+                AR Altar Building App (iOS)
+            </button>
+          </div>
         </div>
       </div>
     </>
