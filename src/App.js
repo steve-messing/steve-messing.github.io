@@ -4,6 +4,9 @@ import React from "react";
 // import Logo from "./components/logo";
 import Name from "./components/name";
 import Css from "../src/css/style.css";
+import Pdf from "./components/pdf";
+import resume from "./assets/resume.pdf";
+import cv from "./assets/cv.pdf";
 
 function App() {
   return (
@@ -14,14 +17,7 @@ function App() {
             <div class="blue box">
               <ul class="code-projects">
                 <a href="./assets/resume.pdf">
-                  <li>Resume</li>
-                </a>
-              </ul>
-            </div>
-            <div class="blue box">
-              <ul class="code-projects">
-                <a href="./assets/cv.pdf">
-                  <li>Curriculum Vitae</li>
+                  <li >Coming Soon...</ li>
                 </a>
               </ul>
             </div>
