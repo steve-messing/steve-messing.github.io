@@ -6,7 +6,7 @@ html {
 
 body {
     font-family: helvetica, arial, sans-serif;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 220px auto;
     grid-template-rows: 200px auto 70px;
     grid-template-areas: "logo name" "nav content" "footer footer";

@@ -1,21 +1,18 @@
-import "./css/style.css";
-import Nav from "./nav";
-import Logo from "./logo";
 import React from "react";
-import Footer from "./footer";
+import Nav from "./components/nav";
+import Logo from "./components/logo";
+import Name from "./components/name";
+import Css from "../src/css/style.css";
+import Hamburger from "./components/hamburger";
 
 function App() {
   return (
     <>
       <body>
-        <Logo />
-        <h1 class="name">STEVE GERMAIN MESSING</h1>
-
+        <Hamburger />
+        <Name />
         <Nav />
-
-        <div class="content">
-          <h2>Work</h2>
-          <div className="displayFlex">
+        <div className={Css.container}>
             <div class="blue box">
               <ul class="code-projects">
                 <a href="./assets/resume.pdf">
@@ -30,8 +27,6 @@ function App() {
                 </a>
               </ul>
             </div>
-          </div>
-          <div className="displayFlex">
             <div class="red box">
               <h3>
                 <a href="https://github.com/steve-messing?tab=repositories">
@@ -56,9 +51,8 @@ function App() {
                 </a>
               </ul>
             </div>
-          </div>
+
         </div>
-        <Footer />
       </body>
     </>
   );
