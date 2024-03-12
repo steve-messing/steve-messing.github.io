@@ -4,7 +4,7 @@ import HamburgerSvg from "../assets/hamburger.svg";
 function Hamburger() {
   return (
     <>
-      <img src={HamburgerSvg} alt="hamburger menu" />
+      <svg src={HamburgerSvg} alt="hamburger menu" />
     </>
   );
 }

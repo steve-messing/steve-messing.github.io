@@ -1,17 +1,15 @@
 import React from "react";
-import Nav from "./components/nav";
-import Logo from "./components/logo";
+// import Hamburger from "./components/hamburger";
+// import Nav from "./components/nav";
+// import Logo from "./components/logo";
 import Name from "./components/name";
 import Css from "../src/css/style.css";
-import Hamburger from "./components/hamburger";
 
 function App() {
   return (
     <>
-      <body>
-        <Hamburger />
+      <div className="container">
         <Name />
-        <Nav />
         <div className={Css.container}>
             <div class="blue box">
               <ul class="code-projects">
@@ -53,7 +51,7 @@ function App() {
             </div>
 
         </div>
-      </body>
+      </div>
     </>
   );
 }
