@@ -54,7 +54,7 @@ ul {
     color: #9FD2FF;
 }
 
-/* Small desktop */
+/* desktop */
 @media (min-width: 900px) {
     .container {
         max-width: 400px;
