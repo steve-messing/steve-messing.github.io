@@ -47,7 +47,7 @@ ul {
     margin-bottom: 20px;
 }
 
-.box a {
+.link {
     color: white;
 }
 
@@ -58,15 +58,21 @@ ul {
 button {
     list-style: none;
     background: wheat;
-    color: #2e2a2e;
-    text-decoration: none;
     padding: 10px;
     width: 100%;
+}
+
+button a {
+    color: #2e2a2e;
+    text-decoration: none;
 }
 
 button:hover {
     background: #2e2a2e;
     color: #9FD2FF;
+    a {
+        color: #9FD2FF;
+    }
 }
 
 /* desktop */

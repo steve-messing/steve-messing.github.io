@@ -16,10 +16,10 @@ function App() {
         <div className={Css.container}>
           <div class="blue box">
             <ul>
-              <a href="https://github.com/steve-messing">
+              <a class="link" href="https://github.com/steve-messing">
                 <li>GitHub</li>
               </a>
-              <a href="https://www.linkedin.com/in/steve-messing-a3b40264/">
+              <a class="link" href="https://www.linkedin.com/in/steve-messing-a3b40264/">
                 <li>LinkedIn</li>
               </a>
             </ul>
@@ -29,8 +29,10 @@ function App() {
             <h3>
                 Trans Resources Page
             </h3>
-            <button href="https://realself.com/trans-resources">
+            <button>
+              <a href="https://realself.com/trans-resources">
                 RealSelf
+              </a>
             </button>
           </div>
           
@@ -38,8 +40,10 @@ function App() {
             <h3>
                 Altarfy
             </h3>
-            <button href="https://www.youtube.com/watch?v=FzYQIi99va0">
+            <button>
+              <a className={Css.buttonLink} href="https://www.youtube.com/watch?v=FzYQIi99va0">
                 AR Altar Building App (iOS)
+              </a>
             </button>
           </div>
 
