@@ -58,8 +58,6 @@ ul {
 button {
     list-style: none;
     background: wheat;
-    padding: 10px;
-    width: 100%;
 }
 
 button a {
@@ -73,6 +71,26 @@ button:hover {
     a {
         color: #9FD2FF;
     }
+}
+
+/*  tic tac toe */
+
+.board {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.square {
+    background: white;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    margin-top: -1px;
+    margin-left: -1px;
+    text-align: center;
+    float: left;
 }
 
 /* desktop */

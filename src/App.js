@@ -5,60 +5,17 @@ import React from "react";
 // import Pdf from "./components/pdf";
 // import resume from "./assets/resume.pdf";
 // import cv from "./assets/cv.pdf";
-import Name from "./components/name";
-import Css from "../src/css/style.css";
+import Home from "./pages/Home";
+import TicTacToe from "./pages/TicTacToe";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <div className="container">
-        <Name />
-        <div className={Css.container}>
-          <div class="blue box">
-            <ul>
-              <a class="link" href="https://github.com/steve-messing">
-                <li>GitHub</li>
-              </a>
-              <a class="link" href="https://www.linkedin.com/in/steve-messing-a3b40264/">
-                <li>LinkedIn</li>
-              </a>
-            </ul>
-          </div>
-          
-          <div class="red box">
-            <h3>
-                Trans Resources Page
-            </h3>
-            <button>
-              <a href="https://realself.com/trans-resources">
-                RealSelf
-              </a>
-            </button>
-          </div>
-          
-          <div class="red box">
-            <h3>
-                Altarfy
-            </h3>
-            <button>
-              <a className={Css.buttonLink} href="https://www.youtube.com/watch?v=FzYQIi99va0">
-                AR Altar Building App (iOS)
-              </a>
-            </button>
-          </div>
-
-          <div class="green box">
-            <h3>
-                Contact
-            </h3>
-            <button href="/">
-                Coming Soon...
-            </button>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/tic-tac-toe" element={<TicTacToe />} />
+    </Routes>
+  )
 }
 
 export default App;
