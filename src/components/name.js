@@ -3,15 +3,10 @@ import React from "react";
 function Name() {
   return (
     <>
-      <h1>
-        STEVE
+      <h1 style={{ color: "black", fontWeight: "bold", fontSize: "40px", textAlign: "center"}}>
+        STEVE MESSING
       </h1>
-      <h1>
-        GERMAIN
-      </h1>
-      <h1>
-        MESSING
-      </h1>
+      <h4 style={{textAlign: "center"}}>Software Engineer</h4>
     </>
   );
 }
