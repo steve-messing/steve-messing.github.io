@@ -52,6 +52,16 @@ function Home() {
           </Button>
         </Card>
 
+        <Card className="orange box">
+          <h3 style={h3Style}>Games</h3>
+          <Button
+            href="/typescript-react-set"
+            variant="warning"
+          >
+            SET (React, Typescript)
+          </Button>
+        </Card>
+
         <Card className="red box">
           <h3 style={h3Style}>Altarfy</h3>
           <Button
