@@ -45,20 +45,20 @@ function Home() {
           </Button>
         </Card>
 
-        <Card className="red box" border="none">
-          <h3 style={h3Style}>Trans Resources Page</h3>
-          <Button href="https://realself.com/trans-resources" variant="warning">
-            RealSelf
-          </Button>
-        </Card>
-
         <Card className="orange box">
           <h3 style={h3Style}>Games</h3>
           <Button
             href="/typescript-react-set"
-            variant="warning"
+            variant="primary"
           >
-            SET (React, Typescript)
+            SET Game (React)
+          </Button>
+        </Card>
+
+        <Card className="red box" border="none">
+          <h3 style={h3Style}>Trans Resources Page</h3>
+          <Button href="https://realself.com/trans-resources" variant="warning">
+            RealSelf
           </Button>
         </Card>
 
