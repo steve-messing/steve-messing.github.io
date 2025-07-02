@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58aac1e0.css",
-    "main.js": "/static/js/main.9b7f1766.js",
+    "main.js": "/static/js/main.4e18e988.js",
     "static/media/Undying+Love.png": "/static/media/Undying+Love.9bbae1ff12ef4c16497f.png",
     "static/media/Screen+Shot+2018-10-10+at+5.05.12+PM.png": "/static/media/Screen+Shot+2018-10-10+at+5.05.12+PM.1dae59ef278c0f8debea.png",
     "static/media/Seated+Figure-cropped.png": "/static/media/Seated+Figure-cropped.951e6bfa5884093f9031.png",
@@ -14,14 +14,14 @@
     "static/media/Wagyu+Infographic-v4+WEB.jpg": "/static/media/Wagyu+Infographic-v4+WEB.6d9c361fab6216f2b14c.jpg",
     "static/media/Dogwood-4.jpg": "/static/media/Dogwood-4.2529215d71b47aa7d769.jpg",
     "static/media/IMG_5260.jpg": "/static/media/IMG_5260.7c7b909373150ea5ed35.jpg",
-    "static/media/_MG_1998.jpg": "/static/media/_MG_1998.cccb71ac10ee627cb69a.jpg",
+    "static/media/IMG_1998.jpg": "/static/media/IMG_1998.cccb71ac10ee627cb69a.jpg",
     "static/media/35519211504_b3dd6ef06c_k.jpg": "/static/media/35519211504_b3dd6ef06c_k.6b56fa557bda85b59fd8.jpg",
     "static/media/36354730765_7038939881_k.jpg": "/static/media/36354730765_7038939881_k.6261f08db737d792a46d.jpg",
     "static/media/35519215944_3122953a59_k.jpg": "/static/media/35519215944_3122953a59_k.067599d9305954181499.jpg",
     "static/media/chicken+pc-v5+final_Page_2.jpg": "/static/media/chicken+pc-v5+final_Page_2.161b414cf900ce5d0f7b.jpg",
     "static/media/Dogwood-40.jpg": "/static/media/Dogwood-40.84a2a7c7fee6ed521c35.jpg",
-    "static/media/_MG_1930.jpg": "/static/media/_MG_1930.e99283261ca0b19b7da9.jpg",
-    "static/media/_MG_1936.jpg": "/static/media/_MG_1936.f5e636c11e4b2d1d1e76.jpg",
+    "static/media/IMG_1930.jpg": "/static/media/IMG_1930.e99283261ca0b19b7da9.jpg",
+    "static/media/IMG_1936.jpg": "/static/media/IMG_1936.f5e636c11e4b2d1d1e76.jpg",
     "static/media/35519210574_7a217555a1_k.jpg": "/static/media/35519210574_7a217555a1_k.78759334a1bab56ac892.jpg",
     "static/media/chicken+pc-v5+final_Page_1.jpg": "/static/media/chicken+pc-v5+final_Page_1.5a3362d50c3342fbc853.jpg",
     "static/media/The+Jungle.jpg": "/static/media/The+Jungle.282e1aa5ebae7fb7b99e.jpg",
@@ -59,10 +59,10 @@
     "static/media/IMG_9545.jpg": "/static/media/IMG_9545.d37216ca1b487b302283.jpg",
     "index.html": "/index.html",
     "main.58aac1e0.css.map": "/static/css/main.58aac1e0.css.map",
-    "main.9b7f1766.js.map": "/static/js/main.9b7f1766.js.map"
+    "main.4e18e988.js.map": "/static/js/main.4e18e988.js.map"
   },
   "entrypoints": [
     "static/css/main.58aac1e0.css",
-    "static/js/main.9b7f1766.js"
+    "static/js/main.4e18e988.js"
   ]
 }
