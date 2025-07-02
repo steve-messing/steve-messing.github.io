@@ -6,7 +6,7 @@ import Branding from "./pages/Branding";
 import Packaging from "./pages/Packaging";
 import Books from "./pages/Books";
 import ConceptArt from "./pages/ConceptArt";
-import Beef from "./pages/Beef";
+import Beef from "./pages/Beef"
 
 function App() {
   return (
