@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./pages/Home";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import FineArt from "./pages/FineArt";
 import Branding from "./pages/Branding";
 import Packaging from "./pages/Packaging";
