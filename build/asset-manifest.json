@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58aac1e0.css",
-    "main.js": "/static/js/main.dbcf4bb1.js",
+    "main.js": "/static/js/main.9b7f1766.js",
     "static/media/Undying+Love.png": "/static/media/Undying+Love.9bbae1ff12ef4c16497f.png",
     "static/media/Screen+Shot+2018-10-10+at+5.05.12+PM.png": "/static/media/Screen+Shot+2018-10-10+at+5.05.12+PM.1dae59ef278c0f8debea.png",
     "static/media/Seated+Figure-cropped.png": "/static/media/Seated+Figure-cropped.951e6bfa5884093f9031.png",
@@ -59,10 +59,10 @@
     "static/media/IMG_9545.jpg": "/static/media/IMG_9545.d37216ca1b487b302283.jpg",
     "index.html": "/index.html",
     "main.58aac1e0.css.map": "/static/css/main.58aac1e0.css.map",
-    "main.dbcf4bb1.js.map": "/static/js/main.dbcf4bb1.js.map"
+    "main.9b7f1766.js.map": "/static/js/main.9b7f1766.js.map"
   },
   "entrypoints": [
     "static/css/main.58aac1e0.css",
-    "static/js/main.dbcf4bb1.js"
+    "static/js/main.9b7f1766.js"
   ]
 }

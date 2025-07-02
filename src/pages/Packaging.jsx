@@ -3,9 +3,9 @@ import Header from "../components/header";
 import "../css/style.css";
 
 // DogwoodBotanicals imports
-import d1 from "../assets/DogwoodBotanicals/_MG_1930.jpg"
-import d2 from "../assets/DogwoodBotanicals/_MG_1936.jpg"
-import d3 from "../assets/DogwoodBotanicals/_MG_1998.jpg"
+import d1 from "../assets/DogwoodBotanicals/IMG_1930.jpg"
+import d2 from "../assets/DogwoodBotanicals/IMG_1936.jpg"
+import d3 from "../assets/DogwoodBotanicals/IMG_1998.jpg"
 import d4 from "../assets/DogwoodBotanicals/Dogwood-2.jpg"
 import d5 from "../assets/DogwoodBotanicals/Dogwood-4.jpg"
 import d6 from "../assets/DogwoodBotanicals/Dogwood-22.jpg"
